@@ -11,6 +11,25 @@ The objective was to implement secure network segmentation, enable inter-VLAN ro
 
 ---
 
+## 📁 Project Files
+- [📂 Branch Office Project.pkt](Branch%20Office%20Project.pkt) — Download and open in Cisco Packet Tracer
+- Network topology diagram
+- VLAN and trunk configuration screenshots
+- ACL validation screenshots
+
+---
+
+## 🌐 IP Addressing Table
+
+| Department | VLAN | Network Address | Subnet Mask | Router Subinterface |
+|-----------|------|----------------|-------------|-------------------|
+| Admin | VLAN 10 | 192.168.10.0 | /24 (255.255.255.0) | 192.168.10.1 |
+| IT | VLAN 20 | 192.168.20.0 | /24 (255.255.255.0) | 192.168.20.1 |
+| Sales | VLAN 30 | 192.168.30.0 | /24 (255.255.255.0) | 192.168.30.1 |
+| Cloud | VLAN 40 | 192.168.40.0 | /24 (255.255.255.0) | 192.168.40.1 |
+
+---
+
 ## 🎯 Objectives
 - Create VLAN segmentation for three departments
 - Configure inter-VLAN routing (Router-on-a-Stick)
@@ -24,17 +43,6 @@ The objective was to implement secure network segmentation, enable inter-VLAN ro
   - Restricted access for Sales to Admin, allowed access only to IT Support
   - Secure network segmentation
   - Controlled access to cloud resources
-
----
-
-## 🌐 IP Addressing Table
-
-| Department | VLAN | Network Address | Subnet Mask | Router Subinterface |
-|-----------|------|----------------|-------------|-------------------|
-| Admin | VLAN 10 | 192.168.10.0 | /24 (255.255.255.0) | 192.168.10.1 |
-| IT | VLAN 20 | 192.168.20.0 | /24 (255.255.255.0) | 192.168.20.1 |
-| Sales | VLAN 30 | 192.168.30.0 | /24 (255.255.255.0) | 192.168.30.1 |
-| Cloud | VLAN 40 | 192.168.40.0 | /24 (255.255.255.0) | 192.168.40.1 |
 
 ---
 
@@ -160,15 +168,7 @@ IT devices have the required access for support and management purposes.
 
 ---
 
-## 📁 Project Files
-- Cisco Packet Tracer (.pkt) file
-- Network topology diagram
-- VLAN and trunk configuration screenshots
-- ACL validation screenshots
-
----
-
 ## 📌 Author
 **TemmyNetGuard**  
-Cybersecurity Learner at **Altschool Africa** | ISC2 Certified in Cybersecurity (CC)  
+Cybersecurity Student at **Altschool Africa** | ISC2 Certified in Cybersecurity (CC)  
 Building secure systems one lab at a time. 🔐
